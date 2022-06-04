@@ -1,0 +1,68 @@
+#GetAdvice{
+    font-size: small;
+    color: hsl(150, 100%, 66%);
+
+}
+
+#footer{
+    text-align: center;
+    font-size: small;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+p{
+    color: hsl(193, 38%, 86%);
+    font-size: large;
+}
+
+
+.main{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container{
+    width: 450px;
+    block-size: auto;
+    margin: 150px auto;
+    overflow: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    
+}
+
+.button{
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    position:absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    cursor: pointer;
+    
+        
+}
+
+.button:hover {
+    background-color: hsl(193, 38%, 86%);
+}
+
+.icon{
+    max-width: 20px;
+    
+}
+
+.line{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
