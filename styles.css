@@ -27,7 +27,7 @@ p{
 }
 
 .advice-container{
-    width: 450px;
+    max-width: 450px;
     block-size: auto;
     margin: 150px auto;
     overflow: auto;
